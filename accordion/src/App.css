@@ -5,19 +5,6 @@
   text-align: center;
 }
 
-.logo {
-  height: 6em;
-  padding: 1.5em;
-  will-change: filter;
-  transition: filter 300ms;
-}
-.logo:hover {
-  filter: drop-shadow(0 0 2em #646cffaa);
-}
-.logo.react:hover {
-  filter: drop-shadow(0 0 2em #61dafbaa);
-}
-
 @keyframes logo-spin {
   from {
     transform: rotate(0deg);
@@ -38,5 +25,48 @@
 }
 
 .read-the-docs {
+  color: #888;
+}
+
+
+.accordion-container {
+  text-align: left;
+  border: 1px solid #a09d9d;
+  width: fit-content;
+  height: fit-content;
+  padding: 2rem;
+  border-radius: 1rem;
+  display: flex;
+  flex-direction: column;
+  gap: 1rem;
+}
+
+.accordion-item {
+  height: fit-content;
+  display: flex;
+  flex-direction: column;
+}
+
+.header {
+  display: flex;
+  gap: 1rem;
+  align-items: center;
+  justify-content: space-between;
+  transition: transform ease-in .3s;
+}
+
+.rotate {
+  transform: rotate(180deg);
+}
+
+
+.item-title {
+  font-size: 1.2rem;
+  font-weight: 500;
+}
+
+.item-content {
+  font-size: .8rem;
+  font-weight: 400;
   color: #888;
 }
