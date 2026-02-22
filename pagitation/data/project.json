@@ -1,0 +1,993 @@
+﻿[
+  {
+    "id": 1,
+    "name": "The Grand Valencia Residences",
+    "description": "A luxury residential complex in the heart of the city with state-of-the-art amenities and stunning views.",
+    "status": "Available",
+    "images": [
+      "https://images.unsplash.com/photo-1600596542815-ffad4c1539a9?auto=format&fit=crop&w=800&q=80&property=1&img=1",
+      "https://images.unsplash.com/photo-1512917774080-9991f1c4c750?auto=format&fit=crop&w=800&q=80&property=1&img=2",
+      "https://images.unsplash.com/photo-1600607687920-4e2a09c71bf0?auto=format&fit=crop&w=800&q=80&property=1&img=3"
+    ]
+  },
+  {
+    "id": 2,
+    "name": "Ocean Breeze Towers",
+    "description": "Modern apartments designed for beachfront living, featuring direct beach access and a private pool.",
+    "status": "Under Offer",
+    "images": [
+      "https://images.unsplash.com/photo-1600585154340-be6161a56a0c?auto=format&fit=crop&w=800&q=80&property=2&img=1",
+      "https://images.unsplash.com/photo-1564013799919-ab600027ffc6?auto=format&fit=crop&w=800&q=80&property=2&img=2"
+    ]
+  },
+  {
+    "id": 3,
+    "name": "Green Valley Estates",
+    "description": "Eco-friendly houses in a serene, suburban setting, close to parks and excellent schools.",
+    "status": "Sold Out",
+    "images": [
+      "https://images.unsplash.com/photo-1580587771525-78b9dba3b914?auto=format&fit=crop&w=800&q=80&property=3&img=1",
+      "https://images.unsplash.com/photo-1600566753190-17f0baa2a6c3?auto=format&fit=crop&w=800&q=80&property=3&img=2",
+      "https://images.unsplash.com/photo-1600573472550-8090b5e0745e?auto=format&fit=crop&w=800&q=80&property=3&img=3",
+      "https://images.unsplash.com/photo-1600047509807-ba8f99d2cdde?auto=format&fit=crop&w=800&q=80&property=3&img=4"
+    ]
+  },
+  {
+    "id": 4,
+    "name": "The Pinnacle Corporate Hub",
+    "description": "Premium commercial office spaces in the central business district, ideal for startups and large corporations.",
+    "status": "Available",
+    "images": [
+      "https://images.unsplash.com/photo-1497366216548-37526070297c?auto=format&fit=crop&w=800&q=80&property=4&img=1"
+    ]
+  },
+  {
+    "id": 5,
+    "name": "Riverside Lofts",
+    "description": "Chic, industrial-style lofts with riverfront views and easy access to local nightlife and restaurants.",
+    "status": "Available",
+    "images": [
+      "https://images.unsplash.com/photo-1560448204-e02f11c3d0e2?auto=format&fit=crop&w=800&q=80&property=5&img=1",
+      "https://images.unsplash.com/photo-1554995207-c18c203602cb?auto=format&fit=crop&w=800&q=80&property=5&img=2"
+    ]
+  },
+  {
+    "id": 6,
+    "name": "Mountain View Cabins",
+    "description": "Rustic yet modern cabins offering a perfect getaway with breathtaking mountain scenery.",
+    "status": "Under Offer",
+    "images": [
+      "https://images.unsplash.com/photo-1510798831971-661eb04b3739?auto=format&fit=crop&w=800&q=80&property=6&img=1",
+      "https://images.unsplash.com/photo-1449844908441-8829872d2607?auto=format&fit=crop&w=800&q=80&property=6&img=2",
+      "https://images.unsplash.com/photo-1518780664697-55e3ad937233?auto=format&fit=crop&w=800&q=80&property=6&img=3"
+    ]
+  },
+  {
+    "id": 7,
+    "name": "Urban Oasis Apartments",
+    "description": "Stylish city apartments with a rooftop garden and proximity to major transport links.",
+    "status": "Available",
+    "images": [
+      "https://images.unsplash.com/photo-1522708323590-d24dbb6b0267?auto=format&fit=crop&w=800&q=80&property=7&img=1"
+    ]
+  },
+  {
+    "id": 8,
+    "name": "The Heritage Townhomes",
+    "description": "Classic townhomes in a historic neighborhood, blending traditional architecture with modern interiors.",
+    "status": "Sold Out",
+    "images": [
+      "https://images.unsplash.com/photo-1513694203232-719a280e022f?auto=format&fit=crop&w=800&q=80&property=8&img=1",
+      "https://images.unsplash.com/photo-1568605114967-8130f3a36994?auto=format&fit=crop&w=800&q=80&property=8&img=2"
+    ]
+  },
+  {
+    "id": 9,
+    "name": "Sunset Beach Villas",
+    "description": "Exclusive villas with private beach access, ideal for a luxurious vacation home.",
+    "status": "Available",
+    "images": [
+      "https://images.unsplash.com/photo-1499793983690-e29da59ef1c2?auto=format&fit=crop&w=800&q=80&property=9&img=1",
+      "https://images.unsplash.com/photo-1512152272829-e3139592d56f?auto=format&fit=crop&w=800&q=80&property=9&img=2",
+      "https://images.unsplash.com/photo-1510563800743-aed236490d08?auto=format&fit=crop&w=800&q=80&property=9&img=3"
+    ]
+  },
+  {
+    "id": 10,
+    "name": "Gateway Industrial Park",
+    "description": "Spacious industrial units and warehouses with excellent logistics connections.",
+    "status": "Available",
+    "images": [
+      "https://images.unsplash.com/photo-1586528116311-ad8dd3c8310d?auto=format&fit=crop&w=800&q=80&property=10&img=1"
+    ]
+  },
+  {
+    "id": 11,
+    "name": "The Academy Student Housing",
+    "description": "Purpose-built student accommodation close to major universities with all-inclusive amenities.",
+    "status": "Available",
+    "images": [
+      "https://images.unsplash.com/photo-1555854877-bab0e564b8d5?auto=format&fit=crop&w=800&q=80&property=11&img=1",
+      "https://images.unsplash.com/photo-1522771739844-6a9f6d5f14af?auto=format&fit=crop&w=800&q=80&property=11&img=2"
+    ]
+  },
+  {
+    "id": 12,
+    "name": "Maplewood Senior Living",
+    "description": "Comfortable and accessible living options for seniors, offering community facilities and care services.",
+    "status": "Available",
+    "images": [
+      "https://images.unsplash.com/photo-1513694203232-719a280e022f?auto=format&fit=crop&w=800&q=80&property=12&img=1",
+      "https://images.unsplash.com/photo-1600585154340-be6161a56a0c?auto=format&fit=crop&w=800&q=80&property=12&img=2",
+      "https://images.unsplash.com/photo-1564013799919-ab600027ffc6?auto=format&fit=crop&w=800&q=80&property=12&img=3"
+    ]
+  },
+  {
+    "id": 13,
+    "name": "Sapphire Shores Residences",
+    "description": "Luxurious waterfront properties offering panoramic ocean views and private boat docks.",
+    "status": "Under Offer",
+    "images": [
+      "https://images.unsplash.com/photo-1507089947368-19c1da9775ae?auto=format&fit=crop&w=800&q=80&property=13&img=1",
+      "https://images.unsplash.com/photo-1512917774080-9991f1c4c750?auto=format&fit=crop&w=800&q=80&property=13&img=2"
+    ]
+  },
+  {
+    "id": 14,
+    "name": "Silver Springs Estates",
+    "description": "A peaceful suburban gated community surrounded by natural springs and walking trails.",
+    "status": "Available",
+    "images": [
+      "https://images.unsplash.com/photo-1600596542815-ffad4c1539a9?auto=format&fit=crop&w=800&q=80&property=14&img=1",
+      "https://images.unsplash.com/photo-1600607687920-4e2a09c71bf0?auto=format&fit=crop&w=800&q=80&property=14&img=2",
+      "https://images.unsplash.com/photo-1580587771525-78b9dba3b914?auto=format&fit=crop&w=800&q=80&property=14&img=3"
+    ]
+  },
+  {
+    "id": 15,
+    "name": "Horizon Harbor Lofts",
+    "description": "Trendy, open-concept lofts situated right on the harbor with marina access.",
+    "status": "Sold Out",
+    "images": [
+      "https://images.unsplash.com/photo-1484154218962-a197022b5858?auto=format&fit=crop&w=800&q=80&property=15&img=1"
+    ]
+  },
+  {
+    "id": 16,
+    "name": "Ironwood Corporate Center",
+    "description": "A highly modern commercial campus designed for tech companies and creative agencies.",
+    "status": "Available",
+    "images": [
+      "https://images.unsplash.com/photo-1497366754035-f200968a6e72?auto=format&fit=crop&w=800&q=80&property=16&img=1",
+      "https://images.unsplash.com/photo-1497366811353-6870744d04b2?auto=format&fit=crop&w=800&q=80&property=16&img=2"
+    ]
+  },
+  {
+    "id": 17,
+    "name": "Whispering Pines Cabins",
+    "description": "Remote luxury cabins nestled in a dense pine forest, ideal for eco-tourism.",
+    "status": "Available",
+    "images": [
+      "https://images.unsplash.com/photo-1449844908441-8829872d2607?auto=format&fit=crop&w=800&q=80&property=17&img=1",
+      "https://images.unsplash.com/photo-1510798831971-661eb04b3739?auto=format&fit=crop&w=800&q=80&property=17&img=2"
+    ]
+  },
+  {
+    "id": 18,
+    "name": "Zenith Vista Apartments",
+    "description": "High-rise apartments offering 360-degree city views and premium concierge services.",
+    "status": "Under Offer",
+    "images": [
+      "https://images.unsplash.com/photo-1545324418-cc1a3fa10c00?auto=format&fit=crop&w=800&q=80&property=18&img=1"
+    ]
+  },
+  {
+    "id": 19,
+    "name": "Meadow View Townhomes",
+    "description": "Family-friendly townhouses backing onto open green meadows and public parks.",
+    "status": "Available",
+    "images": [
+      "https://images.unsplash.com/photo-1600566753190-17f0baa2a6c3?auto=format&fit=crop&w=800&q=80&property=19&img=1",
+      "https://images.unsplash.com/photo-1600573472550-8090b5e0745e?auto=format&fit=crop&w=800&q=80&property=19&img=2",
+      "https://images.unsplash.com/photo-1568605114967-8130f3a36994?auto=format&fit=crop&w=800&q=80&property=19&img=3"
+    ]
+  },
+  {
+    "id": 20,
+    "name": "Lakeside Legacy Villas",
+    "description": "Grand estates built along the tranquil shores of the local lake, featuring private boathouses.",
+    "status": "Sold Out",
+    "images": [
+      "https://images.unsplash.com/photo-1512917774080-9991f1c4c750?auto=format&fit=crop&w=800&q=80&property=20&img=1",
+      "https://images.unsplash.com/photo-1600596542815-ffad4c1539a9?auto=format&fit=crop&w=800&q=80&property=20&img=2"
+    ]
+  },
+  {
+    "id": 21,
+    "name": "Apex Logistics Park",
+    "description": "State-of-the-art warehousing and distribution center located near the major interstate.",
+    "status": "Available",
+    "images": [
+      "https://images.unsplash.com/photo-1586528116311-ad8dd3c8310d?auto=format&fit=crop&w=800&q=80&property=21&img=1"
+    ]
+  },
+  {
+    "id": 22,
+    "name": "Scholar's Rest Housing",
+    "description": "Modern, fully furnished apartments catering exclusively to graduate students and faculty.",
+    "status": "Under Offer",
+    "images": [
+      "https://images.unsplash.com/photo-1522708323590-d24dbb6b0267?auto=format&fit=crop&w=800&q=80&property=22&img=1",
+      "https://images.unsplash.com/photo-1502672260266-1c15e8d1bd6d?auto=format&fit=crop&w=800&q=80&property=22&img=2"
+    ]
+  },
+  {
+    "id": 23,
+    "name": "Golden Age Retreat",
+    "description": "A premier 55+ active adult community featuring a golf course, clubhouse, and wellness center.",
+    "status": "Available",
+    "images": [
+      "https://images.unsplash.com/photo-1564013799919-ab600027ffc6?auto=format&fit=crop&w=800&q=80&property=23&img=1",
+      "https://images.unsplash.com/photo-1600585154340-be6161a56a0c?auto=format&fit=crop&w=800&q=80&property=23&img=2",
+      "https://images.unsplash.com/photo-1600607687920-4e2a09c71bf0?auto=format&fit=crop&w=800&q=80&property=23&img=3"
+    ]
+  },
+  {
+    "id": 24,
+    "name": "Crystal Creek Residences",
+    "description": "Contemporary homes featuring sustainable architecture and built alongside a clear, winding creek.",
+    "status": "Available",
+    "images": [
+      "https://images.unsplash.com/photo-1513694203232-719a280e022f?auto=format&fit=crop&w=800&q=80&property=24&img=1",
+      "https://images.unsplash.com/photo-1580587771525-78b9dba3b914?auto=format&fit=crop&w=800&q=80&property=24&img=2"
+    ]
+  },
+  {
+    "id": 25,
+    "name": "Metro Modern Hub",
+    "description": "Mixed-use development featuring retail spaces on the ground floor and luxury apartments above.",
+    "status": "Sold Out",
+    "images": [
+      "https://images.unsplash.com/photo-1545324418-cc1a3fa10c00?auto=format&fit=crop&w=800&q=80&property=25&img=1",
+      "https://images.unsplash.com/photo-1560448204-e02f11c3d0e2?auto=format&fit=crop&w=800&q=80&property=25&img=2",
+      "https://images.unsplash.com/photo-1554995207-c18c203602cb?auto=format&fit=crop&w=800&q=80&property=25&img=3",
+      "https://images.unsplash.com/photo-1497366216548-37526070297c?auto=format&fit=crop&w=800&q=80&property=25&img=4"
+    ]
+  },
+  {
+    "id": 26,
+    "name": "Alpine Ascent Estates",
+    "description": "Ski-in, ski-out luxury chalets offering direct access to the premier mountain resort.",
+    "status": "Available",
+    "images": [
+      "https://images.unsplash.com/photo-1510798831971-661eb04b3739?auto=format&fit=crop&w=800&q=80&property=26&img=1"
+    ]
+  },
+  {
+    "id": 27,
+    "name": "Nexus Commercial Tower",
+    "description": "A Class-A office building featuring LEED-certified design and panoramic skyline views.",
+    "status": "Under Offer",
+    "images": [
+      "https://images.unsplash.com/photo-1497366754035-f200968a6e72?auto=format&fit=crop&w=800&q=80&property=27&img=1",
+      "https://images.unsplash.com/photo-1497366811353-6870744d04b2?auto=format&fit=crop&w=800&q=80&property=27&img=2"
+    ]
+  },
+  {
+    "id": 28,
+    "name": "Cobblestone Townhomes",
+    "description": "Charming residences located in the historic arts district, featuring exposed brick and vintage details.",
+    "status": "Available",
+    "images": [
+      "https://images.unsplash.com/photo-1568605114967-8130f3a36994?auto=format&fit=crop&w=800&q=80&property=28&img=1"
+    ]
+  },
+  {
+    "id": 29,
+    "name": "Emerald Valley Villas",
+    "description": "Spacious, secluded villas set amidst lush greenery and tropical landscaping.",
+    "status": "Available",
+    "images": [
+      "https://images.unsplash.com/photo-1512917774080-9991f1c4c750?auto=format&fit=crop&w=800&q=80&property=29&img=1",
+      "https://images.unsplash.com/photo-1600596542815-ffad4c1539a9?auto=format&fit=crop&w=800&q=80&property=29&img=2",
+      "https://images.unsplash.com/photo-1580587771525-78b9dba3b914?auto=format&fit=crop&w=800&q=80&property=29&img=3"
+    ]
+  },
+  {
+    "id": 30,
+    "name": "Trade Winds Industrial",
+    "description": "Heavy manufacturing and industrial park zoned for heavy machinery and 24-hour operations.",
+    "status": "Sold Out",
+    "images": [
+      "https://images.unsplash.com/photo-1586528116311-ad8dd3c8310d?auto=format&fit=crop&w=800&q=80&property=30&img=1"
+    ]
+  },
+  {
+    "id": 31,
+    "name": "Campus Corner Flats",
+    "description": "Affordable and convenient off-campus housing positioned steps away from the university library.",
+    "status": "Available",
+    "images": [
+      "https://images.unsplash.com/photo-1522708323590-d24dbb6b0267?auto=format&fit=crop&w=800&q=80&property=31&img=1",
+      "https://images.unsplash.com/photo-1555854877-bab0e564b8d5?auto=format&fit=crop&w=800&q=80&property=31&img=2"
+    ]
+  },
+  {
+    "id": 32,
+    "name": "Oakfield Senior Manors",
+    "description": "Assisted living facility focused on memory care and customized wellness programs for seniors.",
+    "status": "Under Offer",
+    "images": [
+      "https://images.unsplash.com/photo-1600585154340-be6161a56a0c?auto=format&fit=crop&w=800&q=80&property=32&img=1",
+      "https://images.unsplash.com/photo-1600607687920-4e2a09c71bf0?auto=format&fit=crop&w=800&q=80&property=32&img=2"
+    ]
+  },
+  {
+    "id": 33,
+    "name": "The Blueprint Lofts",
+    "description": "Converted factory building featuring massive windows, high ceilings, and concrete floors.",
+    "status": "Available",
+    "images": [
+      "https://images.unsplash.com/photo-1484154218962-a197022b5858?auto=format&fit=crop&w=800&q=80&property=33&img=1",
+      "https://images.unsplash.com/photo-1560448204-e02f11c3d0e2?auto=format&fit=crop&w=800&q=80&property=33&img=2",
+      "https://images.unsplash.com/photo-1554995207-c18c203602cb?auto=format&fit=crop&w=800&q=80&property=33&img=3"
+    ]
+  },
+  {
+    "id": 34,
+    "name": "Sovereign Shelter Residences",
+    "description": "Ultra-luxury penthouses offering private elevator access and dedicated rooftop pools.",
+    "status": "Sold Out",
+    "images": [
+      "https://images.unsplash.com/photo-1545324418-cc1a3fa10c00?auto=format&fit=crop&w=800&q=80&property=34&img=1"
+    ]
+  },
+  {
+    "id": 35,
+    "name": "Prairie Wind Estates",
+    "description": "Expansive ranch-style homes situated on multi-acre lots with private equestrian facilities.",
+    "status": "Available",
+    "images": [
+      "https://images.unsplash.com/photo-1600596542815-ffad4c1539a9?auto=format&fit=crop&w=800&q=80&property=35&img=1",
+      "https://images.unsplash.com/photo-1513694203232-719a280e022f?auto=format&fit=crop&w=800&q=80&property=35&img=2"
+    ]
+  },
+  {
+    "id": 36,
+    "name": "Innovation Tech Park",
+    "description": "Commercial office park designed exclusively for biotechnology and software development startups.",
+    "status": "Available",
+    "images": [
+      "https://images.unsplash.com/photo-1497366216548-37526070297c?auto=format&fit=crop&w=800&q=80&property=36&img=1"
+    ]
+  },
+  {
+    "id": 37,
+    "name": "Canyon View Retreat",
+    "description": "Boutique homes perched on the edge of the canyon, offering unobstructed sunset views.",
+    "status": "Under Offer",
+    "images": [
+      "https://images.unsplash.com/photo-1510798831971-661eb04b3739?auto=format&fit=crop&w=800&q=80&property=37&img=1",
+      "https://images.unsplash.com/photo-1449844908441-8829872d2607?auto=format&fit=crop&w=800&q=80&property=37&img=2"
+    ]
+  },
+  {
+    "id": 38,
+    "name": "Lumina City Apartments",
+    "description": "Smart-home enabled apartments in the downtown core, featuring energy-efficient appliances.",
+    "status": "Available",
+    "images": [
+      "https://images.unsplash.com/photo-1522708323590-d24dbb6b0267?auto=format&fit=crop&w=800&q=80&property=38&img=1",
+      "https://images.unsplash.com/photo-1502672260266-1c15e8d1bd6d?auto=format&fit=crop&w=800&q=80&property=38&img=2",
+      "https://images.unsplash.com/photo-1560448204-e02f11c3d0e2?auto=format&fit=crop&w=800&q=80&property=38&img=3"
+    ]
+  },
+  {
+    "id": 39,
+    "name": "Legacy Luxe Townhomes",
+    "description": "Elegant, multi-story townhomes featuring private courtyards and detached garages.",
+    "status": "Sold Out",
+    "images": [
+      "https://images.unsplash.com/photo-1568605114967-8130f3a36994?auto=format&fit=crop&w=800&q=80&property=39&img=1"
+    ]
+  },
+  {
+    "id": 40,
+    "name": "Paradise Point Villas",
+    "description": "High-end island villas designed for seasonal vacation rentals, complete with infinity pools.",
+    "status": "Available",
+    "images": [
+      "https://images.unsplash.com/photo-1499793983690-e29da59ef1c2?auto=format&fit=crop&w=800&q=80&property=40&img=1",
+      "https://images.unsplash.com/photo-1512152272829-e3139592d56f?auto=format&fit=crop&w=800&q=80&property=40&img=2"
+    ]
+  },
+  {
+    "id": 41,
+    "name": "Velocity Logistics Center",
+    "description": "A massive e-commerce fulfillment center equipped with the latest automation infrastructure.",
+    "status": "Available",
+    "images": [
+      "https://images.unsplash.com/photo-1586528116311-ad8dd3c8310d?auto=format&fit=crop&w=800&q=80&property=41&img=1"
+    ]
+  },
+  {
+    "id": 42,
+    "name": "UniNest Student Homes",
+    "description": "Shared student housing featuring communal study rooms, gyms, and game lounges.",
+    "status": "Under Offer",
+    "images": [
+      "https://images.unsplash.com/photo-1555854877-bab0e564b8d5?auto=format&fit=crop&w=800&q=80&property=42&img=1",
+      "https://images.unsplash.com/photo-1522771739844-6a9f6d5f14af?auto=format&fit=crop&w=800&q=80&property=42&img=2"
+    ]
+  },
+  {
+    "id": 43,
+    "name": "Tranquil Waters Living",
+    "description": "Independent living community for seniors featuring a large fishing pond and walking gardens.",
+    "status": "Available",
+    "images": [
+      "https://images.unsplash.com/photo-1600585154340-be6161a56a0c?auto=format&fit=crop&w=800&q=80&property=43&img=1",
+      "https://images.unsplash.com/photo-1564013799919-ab600027ffc6?auto=format&fit=crop&w=800&q=80&property=43&img=2",
+      "https://images.unsplash.com/photo-1600607687920-4e2a09c71bf0?auto=format&fit=crop&w=800&q=80&property=43&img=3"
+    ]
+  },
+  {
+    "id": 44,
+    "name": "The Foundry Lofts",
+    "description": "Historic steel foundry converted into luxurious, spacious lofts with massive skylights.",
+    "status": "Sold Out",
+    "images": [
+      "https://images.unsplash.com/photo-1484154218962-a197022b5858?auto=format&fit=crop&w=800&q=80&property=44&img=1"
+    ]
+  },
+  {
+    "id": 45,
+    "name": "Regal Reside Residences",
+    "description": "Gated residential community known for its meticulously manicured lawns and high security.",
+    "status": "Available",
+    "images": [
+      "https://images.unsplash.com/photo-1600596542815-ffad4c1539a9?auto=format&fit=crop&w=800&q=80&property=45&img=1",
+      "https://images.unsplash.com/photo-1512917774080-9991f1c4c750?auto=format&fit=crop&w=800&q=80&property=45&img=2"
+    ]
+  },
+  {
+    "id": 46,
+    "name": "Cedar Wood Park Estates",
+    "description": "Custom-built family homes located inside a protected cedar forest preservation area.",
+    "status": "Available",
+    "images": [
+      "https://images.unsplash.com/photo-1580587771525-78b9dba3b914?auto=format&fit=crop&w=800&q=80&property=46&img=1"
+    ]
+  },
+  {
+    "id": 47,
+    "name": "The Meridian Corporate Plaza",
+    "description": "A bustling commercial plaza featuring flexible co-working spaces and executive suites.",
+    "status": "Under Offer",
+    "images": [
+      "https://images.unsplash.com/photo-1497366754035-f200968a6e72?auto=format&fit=crop&w=800&q=80&property=47&img=1",
+      "https://images.unsplash.com/photo-1497366811353-6870744d04b2?auto=format&fit=crop&w=800&q=80&property=47&img=2",
+      "https://images.unsplash.com/photo-1497366216548-37526070297c?auto=format&fit=crop&w=800&q=80&property=47&img=3"
+    ]
+  },
+  {
+    "id": 48,
+    "name": "Moonlight Bay Cabins",
+    "description": "Cozy, winterized cabins situated on a quiet bay, popular for ice fishing and snowmobiling.",
+    "status": "Available",
+    "images": [
+      "https://images.unsplash.com/photo-1510798831971-661eb04b3739?auto=format&fit=crop&w=800&q=80&property=48&img=1"
+    ]
+  },
+  {
+    "id": 49,
+    "name": "Skyline Sage Apartments",
+    "description": "Eco-friendly high-rise apartments with vertical gardens and solar-powered common areas.",
+    "status": "Sold Out",
+    "images": [
+      "https://images.unsplash.com/photo-1545324418-cc1a3fa10c00?auto=format&fit=crop&w=800&q=80&property=49&img=1",
+      "https://images.unsplash.com/photo-1522708323590-d24dbb6b0267?auto=format&fit=crop&w=800&q=80&property=49&img=2"
+    ]
+  },
+  {
+    "id": 50,
+    "name": "Providence Townhomes",
+    "description": "New construction townhomes in a rapidly growing suburb, close to shopping and dining.",
+    "status": "Available",
+    "images": [
+      "https://images.unsplash.com/photo-1568605114967-8130f3a36994?auto=format&fit=crop&w=800&q=80&property=50&img=1",
+      "https://images.unsplash.com/photo-1600566753190-17f0baa2a6c3?auto=format&fit=crop&w=800&q=80&property=50&img=2",
+      "https://images.unsplash.com/photo-1600573472550-8090b5e0745e?auto=format&fit=crop&w=800&q=80&property=50&img=3"
+    ]
+  },
+  {
+    "id": 51,
+    "name": "Coral Keys Villas",
+    "description": "Luxury waterfront villas with private beaches and direct access to snorkeling reefs.",
+    "status": "Available",
+    "images": [
+      "https://images.unsplash.com/photo-1499793983690-e29da59ef1c2?auto=format&fit=crop&w=800&q=80&property=51&img=1"
+    ]
+  },
+  {
+    "id": 52,
+    "name": "Summit Solutions Hub",
+    "description": "Commercial warehouses with integrated office space, ideal for growing supply chain businesses.",
+    "status": "Under Offer",
+    "images": [
+      "https://images.unsplash.com/photo-1586528116311-ad8dd3c8310d?auto=format&fit=crop&w=800&q=80&property=52&img=1",
+      "https://images.unsplash.com/photo-1497366754035-f200968a6e72?auto=format&fit=crop&w=800&q=80&property=52&img=2"
+    ]
+  },
+  {
+    "id": 53,
+    "name": "DormLife Academy Suites",
+    "description": "Premium student housing featuring private bedrooms, en-suite bathrooms, and a resort-style pool.",
+    "status": "Available",
+    "images": [
+      "https://images.unsplash.com/photo-1555854877-bab0e564b8d5?auto=format&fit=crop&w=800&q=80&property=53&img=1"
+    ]
+  },
+  {
+    "id": 54,
+    "name": "Evergreen Edge Living",
+    "description": "A tranquil retirement community offering continuum of care services from independent to skilled nursing.",
+    "status": "Sold Out",
+    "images": [
+      "https://images.unsplash.com/photo-1513694203232-719a280e022f?auto=format&fit=crop&w=800&q=80&property=54&img=1",
+      "https://images.unsplash.com/photo-1600585154340-be6161a56a0c?auto=format&fit=crop&w=800&q=80&property=54&img=2",
+      "https://images.unsplash.com/photo-1600607687920-4e2a09c71bf0?auto=format&fit=crop&w=800&q=80&property=54&img=3"
+    ]
+  },
+  {
+    "id": 55,
+    "name": "The Cottonwood Lofts",
+    "description": "Urban lofts in a refurbished textile mill, featuring exposed beams and original hardwood floors.",
+    "status": "Available",
+    "images": [
+      "https://images.unsplash.com/photo-1484154218962-a197022b5858?auto=format&fit=crop&w=800&q=80&property=55&img=1",
+      "https://images.unsplash.com/photo-1560448204-e02f11c3d0e2?auto=format&fit=crop&w=800&q=80&property=55&img=2"
+    ]
+  },
+  {
+    "id": 56,
+    "name": "Pinnacle Pulse Residences",
+    "description": "Ultra-modern condominiums in the tech district, featuring automated valet parking.",
+    "status": "Available",
+    "images": [
+      "https://images.unsplash.com/photo-1545324418-cc1a3fa10c00?auto=format&fit=crop&w=800&q=80&property=56&img=1"
+    ]
+  },
+  {
+    "id": 57,
+    "name": "Willowbrook Estates",
+    "description": "Spacious suburban homes on quiet cul-de-sacs, perfect for growing families.",
+    "status": "Under Offer",
+    "images": [
+      "https://images.unsplash.com/photo-1600596542815-ffad4c1539a9?auto=format&fit=crop&w=800&q=80&property=57&img=1",
+      "https://images.unsplash.com/photo-1512917774080-9991f1c4c750?auto=format&fit=crop&w=800&q=80&property=57&img=2"
+    ]
+  },
+  {
+    "id": 58,
+    "name": "The Archstone Corporate Center",
+    "description": "A prestigious high-rise offering premium corporate headquarters space with a helipad.",
+    "status": "Available",
+    "images": [
+      "https://images.unsplash.com/photo-1497366216548-37526070297c?auto=format&fit=crop&w=800&q=80&property=58&img=1"
+    ]
+  },
+  {
+    "id": 59,
+    "name": "Redwood Retreat Cabins",
+    "description": "Off-grid luxury cabins nestled among ancient redwood trees, powered entirely by renewable energy.",
+    "status": "Sold Out",
+    "images": [
+      "https://images.unsplash.com/photo-1510798831971-661eb04b3739?auto=format&fit=crop&w=800&q=80&property=59&img=1",
+      "https://images.unsplash.com/photo-1449844908441-8829872d2607?auto=format&fit=crop&w=800&q=80&property=59&img=2",
+      "https://images.unsplash.com/photo-1518780664697-55e3ad937233?auto=format&fit=crop&w=800&q=80&property=59&img=3"
+    ]
+  },
+  {
+    "id": 60,
+    "name": "MetroMint Apartments",
+    "description": "Vibrant, colorful apartment complex located in the heart of the arts and entertainment district.",
+    "status": "Available",
+    "images": [
+      "https://images.unsplash.com/photo-1522708323590-d24dbb6b0267?auto=format&fit=crop&w=800&q=80&property=60&img=1"
+    ]
+  },
+  {
+    "id": 61,
+    "name": "Historic Haven Townhomes",
+    "description": "Restored 19th-century townhomes featuring modern plumbing and electrical while retaining historic charm.",
+    "status": "Available",
+    "images": [
+      "https://images.unsplash.com/photo-1568605114967-8130f3a36994?auto=format&fit=crop&w=800&q=80&property=61&img=1",
+      "https://images.unsplash.com/photo-1513694203232-719a280e022f?auto=format&fit=crop&w=800&q=80&property=61&img=2"
+    ]
+  },
+  {
+    "id": 62,
+    "name": "MarinaSide Villas",
+    "description": "Exclusive luxury villas situated on a private peninsula with dedicated mega-yacht slips.",
+    "status": "Under Offer",
+    "images": [
+      "https://images.unsplash.com/photo-1507089947368-19c1da9775ae?auto=format&fit=crop&w=800&q=80&property=62&img=1"
+    ]
+  },
+  {
+    "id": 63,
+    "name": "Global Gateway Industrial",
+    "description": "A massive logistics hub located immediately adjacent to the international airport cargo terminals.",
+    "status": "Available",
+    "images": [
+      "https://images.unsplash.com/photo-1586528116311-ad8dd3c8310d?auto=format&fit=crop&w=800&q=80&property=63&img=1",
+      "https://images.unsplash.com/photo-1497366754035-f200968a6e72?auto=format&fit=crop&w=800&q=80&property=63&img=2",
+      "https://images.unsplash.com/photo-1497366811353-6870744d04b2?auto=format&fit=crop&w=800&q=80&property=63&img=3"
+    ]
+  },
+  {
+    "id": 64,
+    "name": "ScholarStay Flats",
+    "description": "Micro-apartments optimized for students, featuring space-saving furniture and lightning-fast internet.",
+    "status": "Sold Out",
+    "images": [
+      "https://images.unsplash.com/photo-1522771739844-6a9f6d5f14af?auto=format&fit=crop&w=800&q=80&property=64&img=1",
+      "https://images.unsplash.com/photo-1555854877-bab0e564b8d5?auto=format&fit=crop&w=800&q=80&property=64&img=2"
+    ]
+  },
+  {
+    "id": 65,
+    "name": "Serenity Senior Village",
+    "description": "A peaceful village-style retirement community with cottage homes and a central community center.",
+    "status": "Available",
+    "images": [
+      "https://images.unsplash.com/photo-1564013799919-ab600027ffc6?auto=format&fit=crop&w=800&q=80&property=65&img=1"
+    ]
+  },
+  {
+    "id": 66,
+    "name": "Artisan Alley Lofts",
+    "description": "Live-work lofts designed specifically for artists and creators, featuring ground-floor gallery space.",
+    "status": "Available",
+    "images": [
+      "https://images.unsplash.com/photo-1484154218962-a197022b5858?auto=format&fit=crop&w=800&q=80&property=66&img=1",
+      "https://images.unsplash.com/photo-1560448204-e02f11c3d0e2?auto=format&fit=crop&w=800&q=80&property=66&img=2"
+    ]
+  },
+  {
+    "id": 67,
+    "name": "The Vanguard Residences",
+    "description": "Hyper-modern architectural marvels featuring glass walls and floating staircases in the city center.",
+    "status": "Under Offer",
+    "images": [
+      "https://images.unsplash.com/photo-1600596542815-ffad4c1539a9?auto=format&fit=crop&w=800&q=80&property=67&img=1"
+    ]
+  },
+  {
+    "id": 68,
+    "name": "Orchard Street Estates",
+    "description": "A charming neighborhood built around an active apple orchard, offering farm-to-table community living.",
+    "status": "Available",
+    "images": [
+      "https://images.unsplash.com/photo-1580587771525-78b9dba3b914?auto=format&fit=crop&w=800&q=80&property=68&img=1",
+      "https://images.unsplash.com/photo-1600566753190-17f0baa2a6c3?auto=format&fit=crop&w=800&q=80&property=68&img=2",
+      "https://images.unsplash.com/photo-1600573472550-8090b5e0745e?auto=format&fit=crop&w=800&q=80&property=68&img=3"
+    ]
+  },
+  {
+    "id": 69,
+    "name": "Capstone Corporate Park",
+    "description": "A sprawling campus of mid-rise office buildings surrounded by manicured lakes and walking paths.",
+    "status": "Sold Out",
+    "images": [
+      "https://images.unsplash.com/photo-1497366216548-37526070297c?auto=format&fit=crop&w=800&q=80&property=69&img=1"
+    ]
+  },
+  {
+    "id": 70,
+    "name": "Desert Dune Cabins",
+    "description": "Luxury eco-cabins located in the desert, designed for stargazing and ultimate seclusion.",
+    "status": "Available",
+    "images": [
+      "https://images.unsplash.com/photo-1449844908441-8829872d2607?auto=format&fit=crop&w=800&q=80&property=70&img=1",
+      "https://images.unsplash.com/photo-1510798831971-661eb04b3739?auto=format&fit=crop&w=800&q=80&property=70&img=2"
+    ]
+  },
+  {
+    "id": 71,
+    "name": "CityScape Apartments",
+    "description": "High-density urban apartments catering to young professionals, featuring a massive rooftop gym.",
+    "status": "Available",
+    "images": [
+      "https://images.unsplash.com/photo-1545324418-cc1a3fa10c00?auto=format&fit=crop&w=800&q=80&property=71&img=1"
+    ]
+  },
+  {
+    "id": 72,
+    "name": "Broadleaf Townhomes",
+    "description": "Modern, multi-level townhouses in a trendy up-and-coming neighborhood with private rooftop decks.",
+    "status": "Under Offer",
+    "images": [
+      "https://images.unsplash.com/photo-1568605114967-8130f3a36994?auto=format&fit=crop&w=800&q=80&property=72&img=1",
+      "https://images.unsplash.com/photo-1513694203232-719a280e022f?auto=format&fit=crop&w=800&q=80&property=72&img=2"
+    ]
+  },
+  {
+    "id": 73,
+    "name": "Tideview Luxury Villas",
+    "description": "Cliffside villas offering dramatic, unobstructed views of the ocean and private funicular access to the beach.",
+    "status": "Available",
+    "images": [
+      "https://images.unsplash.com/photo-1499793983690-e29da59ef1c2?auto=format&fit=crop&w=800&q=80&property=73&img=1",
+      "https://images.unsplash.com/photo-1512152272829-e3139592d56f?auto=format&fit=crop&w=800&q=80&property=73&img=2",
+      "https://images.unsplash.com/photo-1510563800743-aed236490d08?auto=format&fit=crop&w=800&q=80&property=73&img=3",
+      "https://images.unsplash.com/photo-1507089947368-19c1da9775ae?auto=format&fit=crop&w=800&q=80&property=73&img=4"
+    ]
+  },
+  {
+    "id": 74,
+    "name": "Ironclad Industrial Park",
+    "description": "Secure, heavy-duty industrial facilities with reinforced concrete floors and oversized loading bays.",
+    "status": "Sold Out",
+    "images": [
+      "https://images.unsplash.com/photo-1586528116311-ad8dd3c8310d?auto=format&fit=crop&w=800&q=80&property=74&img=1"
+    ]
+  },
+  {
+    "id": 75,
+    "name": "The Quad Student Living",
+    "description": "A traditional, quad-style dormitory complex designed to foster community among first-year students.",
+    "status": "Available",
+    "images": [
+      "https://images.unsplash.com/photo-1555854877-bab0e564b8d5?auto=format&fit=crop&w=800&q=80&property=75&img=1",
+      "https://images.unsplash.com/photo-1522771739844-6a9f6d5f14af?auto=format&fit=crop&w=800&q=80&property=75&img=2"
+    ]
+  },
+  {
+    "id": 76,
+    "name": "Harmony House Senior Care",
+    "description": "A boutique assisted living facility focusing on holistic wellness and personalized daily care.",
+    "status": "Available",
+    "images": [
+      "https://images.unsplash.com/photo-1600585154340-be6161a56a0c?auto=format&fit=crop&w=800&q=80&property=76&img=1"
+    ]
+  },
+  {
+    "id": 77,
+    "name": "The Glasshouse Lofts",
+    "description": "Ultra-modern lofts featuring floor-to-ceiling glass walls, located in the vibrant fashion district.",
+    "status": "Under Offer",
+    "images": [
+      "https://images.unsplash.com/photo-1484154218962-a197022b5858?auto=format&fit=crop&w=800&q=80&property=77&img=1",
+      "https://images.unsplash.com/photo-1560448204-e02f11c3d0e2?auto=format&fit=crop&w=800&q=80&property=77&img=2"
+    ]
+  },
+  {
+    "id": 78,
+    "name": "Opulent Oasis Residences",
+    "description": "A highly exclusive residential tower offering private chefs, chauffeurs, and a members-only spa.",
+    "status": "Available",
+    "images": [
+      "https://images.unsplash.com/photo-1600596542815-ffad4c1539a9?auto=format&fit=crop&w=800&q=80&property=78&img=1"
+    ]
+  },
+  {
+    "id": 79,
+    "name": "FernHollow Estates",
+    "description": "Quiet, winding streets of custom-built homes integrated perfectly into the natural woodland topography.",
+    "status": "Sold Out",
+    "images": [
+      "https://images.unsplash.com/photo-1580587771525-78b9dba3b914?auto=format&fit=crop&w=800&q=80&property=79&img=1",
+      "https://images.unsplash.com/photo-1600566753190-17f0baa2a6c3?auto=format&fit=crop&w=800&q=80&property=79&img=2",
+      "https://images.unsplash.com/photo-1600573472550-8090b5e0745e?auto=format&fit=crop&w=800&q=80&property=79&img=3"
+    ]
+  },
+  {
+    "id": 80,
+    "name": "The Catalyst Corporate Hub",
+    "description": "An incubator-style office building designed specifically to foster collaboration between startups.",
+    "status": "Available",
+    "images": [
+      "https://images.unsplash.com/photo-1497366216548-37526070297c?auto=format&fit=crop&w=800&q=80&property=80&img=1"
+    ]
+  },
+  {
+    "id": 81,
+    "name": "Summit View Cabins",
+    "description": "High-altitude cabins offering breathtaking panoramic views of the entire mountain range.",
+    "status": "Available",
+    "images": [
+      "https://images.unsplash.com/photo-1510798831971-661eb04b3739?auto=format&fit=crop&w=800&q=80&property=81&img=1",
+      "https://images.unsplash.com/photo-1449844908441-8829872d2607?auto=format&fit=crop&w=800&q=80&property=81&img=2"
+    ]
+  },
+  {
+    "id": 82,
+    "name": "UrbanGrid Apartments",
+    "description": "Minimalist, efficient apartments designed for busy urbanites, located directly above the subway station.",
+    "status": "Under Offer",
+    "images": [
+      "https://images.unsplash.com/photo-1522708323590-d24dbb6b0267?auto=format&fit=crop&w=800&q=80&property=82&img=1"
+    ]
+  },
+  {
+    "id": 83,
+    "name": "Brownstone Heritage Townhomes",
+    "description": "Iconic multi-story brownstones offering classic city living with updated luxury interiors.",
+    "status": "Available",
+    "images": [
+      "https://images.unsplash.com/photo-1513694203232-719a280e022f?auto=format&fit=crop&w=800&q=80&property=83&img=1",
+      "https://images.unsplash.com/photo-1568605114967-8130f3a36994?auto=format&fit=crop&w=800&q=80&property=83&img=2",
+      "https://images.unsplash.com/photo-1600585154340-be6161a56a0c?auto=format&fit=crop&w=800&q=80&property=83&img=3"
+    ]
+  },
+  {
+    "id": 84,
+    "name": "Wavecrest Beach Villas",
+    "description": "Beachfront properties featuring modern, open-air designs and private outdoor showers.",
+    "status": "Sold Out",
+    "images": [
+      "https://images.unsplash.com/photo-1499793983690-e29da59ef1c2?auto=format&fit=crop&w=800&q=80&property=84&img=1"
+    ]
+  },
+  {
+    "id": 85,
+    "name": "Meridian Logistics Park",
+    "description": "A regional distribution hub featuring cold-storage facilities and dedicated freight rail access.",
+    "status": "Available",
+    "images": [
+      "https://images.unsplash.com/photo-1586528116311-ad8dd3c8310d?auto=format&fit=crop&w=800&q=80&property=85&img=1",
+      "https://images.unsplash.com/photo-1497366754035-f200968a6e72?auto=format&fit=crop&w=800&q=80&property=85&img=2"
+    ]
+  },
+  {
+    "id": 86,
+    "name": "Campus Cribs Residences",
+    "description": "High-end student apartments featuring a massive rooftop lounge and private study pods.",
+    "status": "Available",
+    "images": [
+      "https://images.unsplash.com/photo-1555854877-bab0e564b8d5?auto=format&fit=crop&w=800&q=80&property=86&img=1"
+    ]
+  },
+  {
+    "id": 87,
+    "name": "Oak & Stone Senior Living",
+    "description": "A luxury retirement estate offering fine dining, a private theater, and scheduled daily excursions.",
+    "status": "Under Offer",
+    "images": [
+      "https://images.unsplash.com/photo-1564013799919-ab600027ffc6?auto=format&fit=crop&w=800&q=80&property=87&img=1",
+      "https://images.unsplash.com/photo-1600607687920-4e2a09c71bf0?auto=format&fit=crop&w=800&q=80&property=87&img=2"
+    ]
+  },
+  {
+    "id": 88,
+    "name": "The Brickyard Lofts",
+    "description": "Spacious lofts in a converted brick manufacturing plant, boasting 15-foot ceilings and industrial hardware.",
+    "status": "Available",
+    "images": [
+      "https://images.unsplash.com/photo-1484154218962-a197022b5858?auto=format&fit=crop&w=800&q=80&property=88&img=1",
+      "https://images.unsplash.com/photo-1560448204-e02f11c3d0e2?auto=format&fit=crop&w=800&q=80&property=88&img=2",
+      "https://images.unsplash.com/photo-1554995207-c18c203602cb?auto=format&fit=crop&w=800&q=80&property=88&img=3"
+    ]
+  },
+  {
+    "id": 89,
+    "name": "Sovereign Sky Residences",
+    "description": "The tallest residential tower in the city, offering unparalleled luxury and private helicopter transfers.",
+    "status": "Sold Out",
+    "images": [
+      "https://images.unsplash.com/photo-1545324418-cc1a3fa10c00?auto=format&fit=crop&w=800&q=80&property=89&img=1"
+    ]
+  },
+  {
+    "id": 90,
+    "name": "Amber Fields Estates",
+    "description": "Sprawling estates located amid rolling hills of wheat and amber grass, offering quiet country living.",
+    "status": "Available",
+    "images": [
+      "https://images.unsplash.com/photo-1600596542815-ffad4c1539a9?auto=format&fit=crop&w=800&q=80&property=90&img=1",
+      "https://images.unsplash.com/photo-1512917774080-9991f1c4c750?auto=format&fit=crop&w=800&q=80&property=90&img=2"
+    ]
+  },
+  {
+    "id": 91,
+    "name": "The Nexus Business Park",
+    "description": "A modern campus for financial and legal firms, featuring a central plaza with high-end dining.",
+    "status": "Available",
+    "images": [
+      "https://images.unsplash.com/photo-1497366216548-37526070297c?auto=format&fit=crop&w=800&q=80&property=91&img=1"
+    ]
+  },
+  {
+    "id": 92,
+    "name": "Riverstone Cabins",
+    "description": "Quaint, traditional log cabins set along the banks of a premier fly-fishing river.",
+    "status": "Under Offer",
+    "images": [
+      "https://images.unsplash.com/photo-1510798831971-661eb04b3739?auto=format&fit=crop&w=800&q=80&property=92&img=1",
+      "https://images.unsplash.com/photo-1449844908441-8829872d2607?auto=format&fit=crop&w=800&q=80&property=92&img=2"
+    ]
+  },
+  {
+    "id": 93,
+    "name": "Metro Living Apartments",
+    "description": "Sleek, compact apartments in the financial district, ideal for corporate housing and short-term leases.",
+    "status": "Available",
+    "images": [
+      "https://images.unsplash.com/photo-1522708323590-d24dbb6b0267?auto=format&fit=crop&w=800&q=80&property=93&img=1",
+      "https://images.unsplash.com/photo-1502672260266-1c15e8d1bd6d?auto=format&fit=crop&w=800&q=80&property=93&img=2",
+      "https://images.unsplash.com/photo-1560448204-e02f11c3d0e2?auto=format&fit=crop&w=800&q=80&property=93&img=3",
+      "https://images.unsplash.com/photo-1554995207-c18c203602cb?auto=format&fit=crop&w=800&q=80&property=93&img=4"
+    ]
+  },
+  {
+    "id": 94,
+    "name": "The Courtyard Townhomes",
+    "description": "A secure community of townhouses built around a beautifully landscaped central courtyard and fountain.",
+    "status": "Sold Out",
+    "images": [
+      "https://images.unsplash.com/photo-1568605114967-8130f3a36994?auto=format&fit=crop&w=800&q=80&property=94&img=1"
+    ]
+  },
+  {
+    "id": 95,
+    "name": "Azure Coastal Villas",
+    "description": "Ultra-modern, white-stucco villas overlooking the Mediterranean-style coast, featuring infinity pools.",
+    "status": "Available",
+    "images": [
+      "https://images.unsplash.com/photo-1499793983690-e29da59ef1c2?auto=format&fit=crop&w=800&q=80&property=95&img=1",
+      "https://images.unsplash.com/photo-1512152272829-e3139592d56f?auto=format&fit=crop&w=800&q=80&property=95&img=2"
+    ]
+  },
+  {
+    "id": 96,
+    "name": "Gateway Freight Hub",
+    "description": "A massive industrial complex dedicated strictly to cross-docking and long-haul freight operations.",
+    "status": "Available",
+    "images": [
+      "https://images.unsplash.com/photo-1586528116311-ad8dd3c8310d?auto=format&fit=crop&w=800&q=80&property=96&img=1"
+    ]
+  },
+  {
+    "id": 97,
+    "name": "The Graduate Student Housing",
+    "description": "Quiet, studious apartment complexes reserved for post-graduate students, featuring extensive library spaces.",
+    "status": "Under Offer",
+    "images": [
+      "https://images.unsplash.com/photo-1522771739844-6a9f6d5f14af?auto=format&fit=crop&w=800&q=80&property=97&img=1",
+      "https://images.unsplash.com/photo-1555854877-bab0e564b8d5?auto=format&fit=crop&w=800&q=80&property=97&img=2"
+    ]
+  },
+  {
+    "id": 98,
+    "name": "Sunrise Meadows Senior Living",
+    "description": "A vibrant community for seniors focusing on outdoor activities, gardening clubs, and wellness.",
+    "status": "Available",
+    "images": [
+      "https://images.unsplash.com/photo-1564013799919-ab600027ffc6?auto=format&fit=crop&w=800&q=80&property=98&img=1",
+      "https://images.unsplash.com/photo-1600607687920-4e2a09c71bf0?auto=format&fit=crop&w=800&q=80&property=98&img=2",
+      "https://images.unsplash.com/photo-1600585154340-be6161a56a0c?auto=format&fit=crop&w=800&q=80&property=98&img=3"
+    ]
+  },
+  {
+    "id": 99,
+    "name": "The Silo Lofts",
+    "description": "A unique residential development built inside converted grain silos, offering round rooms and custom furniture.",
+    "status": "Available",
+    "images": [
+      "https://images.unsplash.com/photo-1484154218962-a197022b5858?auto=format&fit=crop&w=800&q=80&property=99&img=1",
+      "https://images.unsplash.com/photo-1560448204-e02f11c3d0e2?auto=format&fit=crop&w=800&q=80&property=99&img=2"
+    ]
+  },
+  {
+    "id": 100,
+    "name": "Elysian Fields Residences",
+    "description": "The pinnacle of suburban luxury, featuring massive estates, private tennis courts, and smart-home technology.",
+    "status": "Sold Out",
+    "images": [
+      "https://images.unsplash.com/photo-1600596542815-ffad4c1539a9?auto=format&fit=crop&w=800&q=80&property=100&img=1"
+    ]
+  }
+]
